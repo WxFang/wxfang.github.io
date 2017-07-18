@@ -4,7 +4,6 @@ layout: post
 
 I often feel confused about bit manipulation. So here is a little bit summary.  
 <br>
-<br>
 "&" AND operation, for example, 2 (0010) & 7 (0111) => 2 (0010)  
 
 "^" XOR operation, for example, 2 (0010) ^ 7 (0111) => 5 (0101)  
