@@ -1,5 +1,6 @@
 # Personal Blog
 
-A simple blog based on [Xian](https://github.com/KrisYu/Xian) theme.
+This is my personal blog. 
 
+I used [Xian](https://github.com/KrisYu/Xian) theme.
 
