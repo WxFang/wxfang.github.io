@@ -1,13 +1,14 @@
 ---
 layout: post
-title: About
+title: About me
 active: about
 ---
 
 
-This is a simple two-column [jekyll](https://jekyllrb.com/) theme delicated to wrting.
+# Wenxin(Jessica) Fang
 
-You can get to know more about this theme [here]().
+Graduate student from Georgia Tech, Atlanta.
+Major in Electrical and Computer Engineering, minor in Computer Science.
+Will graduate in December 2017. 
+Seeking for Software Development Engineer. Willing to relocate.
 
-
-Theme inspire by [Farbtle](https://github.com/YCF/Farbtle), I steal most CSS from him.
