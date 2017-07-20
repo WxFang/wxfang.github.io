@@ -24,9 +24,9 @@ Reference:
 
 [https://www.cs.cornell.edu/~tomf/notes/cps104/twoscomp.html](https://www.cs.cornell.edu/~tomf/notes/cps104/twoscomp.html)
 
-# Problem :
+## Problem :
 How to realize math without using + or -?  
-# Code:
+## Code:
 ```java
 // Iterative
 public int getSum(int a, int b) {
