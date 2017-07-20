@@ -1,13 +1,13 @@
-## Problem  
+#### Problem  
 Choose k entries from n numbers. Make sure each number is selected with the probability of k/n.
 
-## Basic idea
+#### Basic idea
 - Choose 1, 2, 3, ..., k first and put them into the reservoir.
 - For k+1, pick it with a probability of k/(k+1), and randomly replace a number in the reservoir.
 - For k+i, pick it with a probability of k/(k+i), and randomly replace a number in the reservoir.
 - Repeat until k+i reaches n  
 
-## Proof
+#### Proof
 - For k+i, the probability that it is selected and will replace a number in the reservoir is k/(k+i)  
 - For a number in the reservoir before (let's say X), the probability that it keeps staying in the reservoir is  
     - P(X was in the reservoir last time) × P(X is not replaced by k+i)
@@ -16,7 +16,7 @@ Choose k entries from n numbers. Make sure each number is selected with the prob
     - = k/(k+i)  
 - When k+i reaches n, the probability of each number staying in the reservoir is k/n
 
-## Example
+#### Example
 - Choose 3 numbers from [111, 222, 333, 444]. Make sure each number is selected with a probability of 3/4
 - First, choose [111, 222, 333] as the initial reservior
 - Then choose 444 with a probability of 3/4
@@ -27,6 +27,6 @@ Choose k entries from n numbers. Make sure each number is selected with the prob
 - The same case with 222 and 333
 - Now all the numbers have the probability of 3/4 to be picked
 
-## Source:
+#### Source:
 [http://www.geeksforgeeks.org/reservoir-sampling/](http://www.geeksforgeeks.org/reservoir-sampling/)  
 [http://blog.csdn.net/javastart/article/details/50610868](http://blog.csdn.net/javastart/article/details/50610868)
