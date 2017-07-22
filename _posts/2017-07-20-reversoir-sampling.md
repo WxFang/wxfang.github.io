@@ -1,3 +1,15 @@
+---
+layout: post
+title: "Reversoir Sampling"
+excerpt: "Analysis of reversoir sampling problem and explanation."
+categories:[Reversoir Sampling, Algorithm, Leetcode]
+tags: [Reversoir Sampling, Algorithm, Leetcode]
+comments: true
+toc: true
+---
+
+
+
 #### Problem  
 Choose k entries from n numbers. Make sure each number is selected with the probability of k/n.
 

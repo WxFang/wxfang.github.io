@@ -1,5 +1,11 @@
 ---
 layout: post
+title: "Bit Manipulation"
+excerpt: "I often feel confused about bit manipulation. So here is a little bit summary.  "
+categories: [Bit Manipulation, Algorithm, Leetcode, Math]
+tags: [Bit Manipulation, Algorithm, Leetcode, Math]
+comments: true
+toc: true
 ---
 
 I often feel confused about bit manipulation. So here is a little bit summary.  
