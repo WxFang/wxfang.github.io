@@ -1,21 +1,66 @@
-title: Wenxin Fang   # your title
-author: Wenxin Fang # your name
-description: Corner for thoughts and ideas # your description
-avatar: /images/vietnam.jpg
- # change avatar
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: Jessica
+email: wenxin_fang@gatech.edu
+description: A simple blog based on theme powered by jekyll.
+url: https://wxfang.github.io/ # the base hostname & protocol for your site
 
-# Build Settings
-markdown: kramdown
-highlighter: rouge
 
-# Pagination
-paginate: 5
-paginate_path: "/page:num/"
-gems: [jekyll-paginate]
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          America/Atlanta
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
 
-# Comments
-# disqus:
-#   shortname: xxxx-xxxxx-xxx   # your disqus shortname
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
 
-# Google Analytics
-# google_analytics: xx-xxxxxxxx-1  # your google analytics
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: Jessica
+  avatar: wenxi.jpg
+  job: "Graduate student from Georgia Tech"
+  bio: "A passionate software developer. Looking for full time job."
+  email: wenxin_fang@gatech.edu
+  disqus-shortname: wxfangblog
+  twitter:  #username
+  facebook: Wenxin Fang #username
+  google:
+    plus: #username
+    analytics: UA-62251910-2
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: WxFang #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: wenxin-jessica-fang-047250116 #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
