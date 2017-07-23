@@ -3,7 +3,7 @@
 # Site wide configuration
 ####################################
 #
-title: Jessica
+title: Wenxin Fang
 email: wenxin_fang@gatech.edu
 description: A simple blog based on theme powered by jekyll.
 url: https://wxfang.github.io/ # the base hostname & protocol for your site
@@ -33,7 +33,7 @@ kramdown:
 ####################################
 #
 owner:
-  name: Jessica
+  name: Jessica Fang
   avatar: wenxin.jpg
   job: "Graduate student from Georgia Tech"
   bio: "A passionate software developer.  
