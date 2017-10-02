@@ -16,8 +16,7 @@ I have to say nobody explains the sufficiency of the following algo:
 
     If i is even, then nums[i] <= nums[i - 1].
 
-    The code is just to fix the orderings of nums that do not satisfy 1
-    and 2.
+    The code is just to fix the orderings of nums that do not satisfy 1 and 2.
 
 why is this greedy solution can ensure previous sequences and coming sequences W.R.T position i wiggled?
 
