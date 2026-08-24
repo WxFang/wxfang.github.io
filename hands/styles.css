@@ -627,6 +627,42 @@ h2 {
   color: #5d6554;
 }
 
+.about {
+  display: grid;
+  grid-template-columns: 0.82fr 1.18fr;
+  gap: 9vw;
+  border-bottom: 1px solid var(--line);
+  background: var(--paper);
+}
+
+.about__heading h2 {
+  max-width: 620px;
+  font-size: clamp(2.5rem, 4.2vw, 4.3rem);
+}
+
+.about__story {
+  max-width: 680px;
+  padding-top: 38px;
+}
+
+.about__story p {
+  max-width: 610px;
+  margin-bottom: 28px;
+  color: rgba(41, 41, 36, 0.72);
+  font-size: clamp(1rem, 1.35vw, 1.18rem);
+  line-height: 1.72;
+}
+
+.about__story .about__last {
+  margin-top: 46px;
+  margin-bottom: 0;
+  padding-top: 38px;
+  border-top: 1px solid var(--ink);
+  color: var(--ink);
+  font-size: clamp(1.25rem, 1.8vw, 1.65rem);
+  line-height: 1.55;
+}
+
 .newsletter {
   display: grid;
   grid-template-columns: 1.08fr 0.92fr;
@@ -752,6 +788,14 @@ footer > p {
 
   .manifesto {
     grid-template-columns: 1fr;
+  }
+
+  .about {
+    grid-template-columns: 1fr;
+  }
+
+  .about__story {
+    padding-top: 0;
   }
 
   .manifesto__sticky {
