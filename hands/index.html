@@ -18,7 +18,7 @@
         <img src="./assets/429-mark.svg" alt="" width="42" height="42">
       </a>
       <nav aria-label="Main navigation">
-        <a href="#moves">the moves</a>
+        <a href="#first-drop">shop</a>
         <a href="#why">why this exists</a>
         <a href="#about">about me</a>
       </nav>
@@ -53,52 +53,6 @@
         </div>
       </section>
 
-      <section class="moves section" id="moves">
-        <div class="section-heading">
-          <p class="eyebrow">Choose your move</p>
-          <h2>What do your hands<br>want to do?</h2>
-        </div>
-
-        <div class="move-list" role="list">
-          <article class="move-row" role="listitem">
-            <span class="move-row__number">00</span>
-            <h3>Squeeze</h3>
-            <p>Soft. Firm. Stretchy. Slow. Springy.</p>
-            <span class="move-row__shape move-row__shape--squeeze" aria-hidden="true"></span>
-          </article>
-          <article class="move-row" role="listitem">
-            <span class="move-row__number">01</span>
-            <h3>Touch</h3>
-            <p>Ridges, bumps, curves, grooves.</p>
-            <span class="move-row__shape move-row__shape--touch" aria-hidden="true"></span>
-          </article>
-          <article class="move-row" role="listitem">
-            <span class="move-row__number">02</span>
-            <h3>Click</h3>
-            <p>Tiny switches. Exactly the right sound.</p>
-            <span class="move-row__shape move-row__shape--click" aria-hidden="true"></span>
-          </article>
-          <article class="move-row" role="listitem">
-            <span class="move-row__number">03</span>
-            <h3>Turn</h3>
-            <p>Roll it, twist it, spin it again.</p>
-            <span class="move-row__shape move-row__shape--turn" aria-hidden="true"></span>
-          </article>
-          <article class="move-row" role="listitem">
-            <span class="move-row__number">04</span>
-            <h3>Grip</h3>
-            <p>For hands that want a little more resistance.</p>
-            <span class="move-row__shape move-row__shape--grip" aria-hidden="true"></span>
-          </article>
-          <article class="move-row" role="listitem">
-            <span class="move-row__number">05</span>
-            <h3>Flip</h3>
-            <p>Turn time into something you can hold.</p>
-            <span class="move-row__shape move-row__shape--flip" aria-hidden="true"></span>
-          </article>
-        </div>
-      </section>
-
       <section class="first-drop section" id="first-drop">
         <div class="drop-header">
           <div>
@@ -108,13 +62,17 @@
           <p>A tiny test batch is taking shape. Tap a move to see what belongs in your hands.</p>
         </div>
 
-        <div class="filters" aria-label="Filter products by movement">
-          <button class="filter is-active" type="button" data-filter="all" aria-pressed="true">all</button>
-          <button class="filter" type="button" data-filter="touch" aria-pressed="false">touch</button>
-          <button class="filter" type="button" data-filter="squeeze" aria-pressed="false">squeeze</button>
-          <button class="filter" type="button" data-filter="click" aria-pressed="false">click</button>
-          <button class="filter" type="button" data-filter="grip" aria-pressed="false">grip</button>
-          <button class="filter" type="button" data-filter="flip" aria-pressed="false">flip</button>
+        <div class="shop-by-move">
+          <p class="eyebrow">Shop by movement</p>
+          <div class="filters" aria-label="Filter products by movement">
+            <button class="filter is-active" type="button" data-filter="all" aria-pressed="true">all objects</button>
+            <button class="filter" type="button" data-filter="squeeze" aria-pressed="false"><span class="filter__code">00</span>squeeze</button>
+            <button class="filter" type="button" data-filter="touch" aria-pressed="false"><span class="filter__code">01</span>touch</button>
+            <button class="filter" type="button" data-filter="click" aria-pressed="false"><span class="filter__code">02</span>click</button>
+            <button class="filter" type="button" data-filter="turn" aria-pressed="false"><span class="filter__code">03</span>turn</button>
+            <button class="filter" type="button" data-filter="grip" aria-pressed="false"><span class="filter__code">04</span>grip</button>
+            <button class="filter" type="button" data-filter="flip" aria-pressed="false"><span class="filter__code">05</span>flip</button>
+          </div>
         </div>
 
         <div class="product-grid">
