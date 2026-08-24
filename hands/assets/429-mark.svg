@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="title desc">
+  <title id="title">429 brand mark</title>
+  <desc id="desc">A compact geometric 429 mark with a muted green status dot.</desc>
+  <rect width="200" height="200" rx="4" fill="#efede6"/>
+  <g fill="none" stroke="#292924" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M17 108 48 54v94M16 108h45"/>
+    <path d="M72 76c0-15 11-24 27-24 17 0 28 9 28 24 0 12-8 20-19 30l-35 42h58"/>
+    <path d="M160 107c-16 0-27-11-27-27s11-28 28-28 28 12 28 31v16c0 34-12 50-36 50-6 0-12-1-17-4M160 107c17 0 29-10 29-27"/>
+  </g>
+  <circle cx="181" cy="166" r="4" fill="#747b68"/>
+</svg>
