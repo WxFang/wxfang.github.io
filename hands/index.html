@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f4f0e7">
+    <meta name="description" content="Oddly satisfying objects for restless hands and screen-heavy days.">
+    <title>Something — Your hands want something.</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to the good stuff</a>
+
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Something home">something<span>.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#moves">the moves</a>
+        <a href="#why">why this exists</a>
+      </nav>
+      <a class="pill pill--small" href="#first-drop">first drop <span aria-hidden="true">↘</span></a>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero__copy">
+          <p class="eyebrow">Objects for restless hands</p>
+          <h1>Your hands<br>want <em>something.</em></h1>
+          <p class="hero__intro">Squeeze it. Turn it. Click it. Rub it. Flip it.</p>
+          <p class="hero__note">Oddly satisfying objects for long meetings, difficult thoughts, and screen-heavy days.</p>
+          <a class="pill" href="#first-drop">give my hands something <span aria-hidden="true">↓</span></a>
+        </div>
+
+        <div class="playground" aria-label="A playful collection of tactile shapes">
+          <button class="play-object play-object--orange" data-word="squeeze" aria-label="Squeeze">
+            <span></span>
+          </button>
+          <button class="play-object play-object--purple" data-word="turn" aria-label="Turn">
+            <span></span>
+          </button>
+          <button class="play-object play-object--green" data-word="touch" aria-label="Touch">
+            <span></span>
+          </button>
+          <button class="play-object play-object--blue" data-word="click" aria-label="Click">
+            <span></span>
+          </button>
+          <p class="playground__prompt">go ahead.<br><strong>poke around.</strong></p>
+          <div class="playground__word" aria-live="polite">touch</div>
+        </div>
+      </section>
+
+      <div class="move-tape" aria-hidden="true">
+        <div class="move-tape__track">
+          <span>squeeze</span><i>✦</i><span>touch</span><i>✦</i><span>click</span><i>✦</i><span>turn</span><i>✦</i><span>grip</span><i>✦</i><span>flip</span><i>✦</i><span>breathe</span><i>✦</i>
+          <span>squeeze</span><i>✦</i><span>touch</span><i>✦</i><span>click</span><i>✦</i><span>turn</span><i>✦</i><span>grip</span><i>✦</i><span>flip</span><i>✦</i><span>breathe</span><i>✦</i>
+        </div>
+      </div>
+
+      <section class="moves section" id="moves">
+        <div class="section-heading">
+          <p class="eyebrow">Choose your move</p>
+          <h2>What do your hands<br>want to do?</h2>
+        </div>
+
+        <div class="move-list" role="list">
+          <article class="move-row" role="listitem">
+            <span class="move-row__number">01</span>
+            <h3>Squeeze</h3>
+            <p>Soft. Firm. Stretchy. Slow. Springy.</p>
+            <span class="move-row__shape move-row__shape--squeeze" aria-hidden="true"></span>
+          </article>
+          <article class="move-row" role="listitem">
+            <span class="move-row__number">02</span>
+            <h3>Touch</h3>
+            <p>Ridges, bumps, curves, grooves.</p>
+            <span class="move-row__shape move-row__shape--touch" aria-hidden="true"></span>
+          </article>
+          <article class="move-row" role="listitem">
+            <span class="move-row__number">03</span>
+            <h3>Click</h3>
+            <p>Tiny switches. Exactly the right sound.</p>
+            <span class="move-row__shape move-row__shape--click" aria-hidden="true"></span>
+          </article>
+          <article class="move-row" role="listitem">
+            <span class="move-row__number">04</span>
+            <h3>Turn</h3>
+            <p>Roll it, twist it, spin it again.</p>
+            <span class="move-row__shape move-row__shape--turn" aria-hidden="true"></span>
+          </article>
+          <article class="move-row" role="listitem">
+            <span class="move-row__number">05</span>
+            <h3>Grip</h3>
+            <p>For hands that want something stronger.</p>
+            <span class="move-row__shape move-row__shape--grip" aria-hidden="true"></span>
+          </article>
+          <article class="move-row" role="listitem">
+            <span class="move-row__number">06</span>
+            <h3>Flip</h3>
+            <p>Turn time into something you can hold.</p>
+            <span class="move-row__shape move-row__shape--flip" aria-hidden="true"></span>
+          </article>
+        </div>
+      </section>
+
+      <section class="first-drop section" id="first-drop">
+        <div class="drop-header">
+          <div>
+            <p class="eyebrow">The first drop</p>
+            <h2>Things we can’t<br>leave alone.</h2>
+          </div>
+          <p>A tiny test batch is taking shape. Tap a move to see what belongs in your hands.</p>
+        </div>
+
+        <div class="filters" aria-label="Filter products by movement">
+          <button class="filter is-active" type="button" data-filter="all" aria-pressed="true">all</button>
+          <button class="filter" type="button" data-filter="touch" aria-pressed="false">touch</button>
+          <button class="filter" type="button" data-filter="squeeze" aria-pressed="false">squeeze</button>
+          <button class="filter" type="button" data-filter="click" aria-pressed="false">click</button>
+          <button class="filter" type="button" data-filter="grip" aria-pressed="false">grip</button>
+          <button class="filter" type="button" data-filter="flip" aria-pressed="false">flip</button>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card" data-moves="touch turn">
+            <div class="product-card__image product-card__image--stones">
+              <img src="./assets/sensory-stones.png" alt="Colorful double-sided sensory stones in varied textures">
+              <span class="product-card__badge">touch + turn</span>
+            </div>
+            <div class="product-card__info">
+              <div>
+                <h3>The Sensory Stones</h3>
+                <p>Pick the texture your thumb keeps returning to.</p>
+              </div>
+              <span class="status">sampling</span>
+            </div>
+          </article>
+
+          <article class="product-card" data-moves="squeeze">
+            <div class="product-card__image product-card__image--butter">
+              <img src="./assets/slow-butter-grip.png" alt="A playful slow-rising squeeze object shaped like a stick of butter">
+              <span class="product-card__badge">squeeze</span>
+            </div>
+            <div class="product-card__info">
+              <div>
+                <h3>The Slow Butter</h3>
+                <p>Squish it flat. Watch it find itself again.</p>
+              </div>
+              <span class="status">sampling</span>
+            </div>
+          </article>
+
+          <article class="product-card" data-moves="click">
+            <div class="product-card__image product-card__image--switch">
+              <img src="./assets/pocket-switches.png" alt="Small mechanical keyboard switch testers on keychains">
+              <span class="product-card__badge">click</span>
+            </div>
+            <div class="product-card__info">
+              <div>
+                <h3>The Pocket Switch</h3>
+                <p>Silent, soft, or crisp. Your click, your rules.</p>
+              </div>
+              <span class="status">sampling</span>
+            </div>
+          </article>
+
+          <article class="product-card" data-moves="grip squeeze">
+            <div class="product-card__image product-card__image--grip">
+              <img src="./assets/desk-objects.png" alt="A lavender resistance grip ring beside other colorful desk objects">
+              <span class="product-card__badge">grip + squeeze</span>
+            </div>
+            <div class="product-card__info">
+              <div>
+                <h3>The Soft Grip</h3>
+                <p>A little resistance. A lot for your hands to do.</p>
+              </div>
+              <span class="status">sampling</span>
+            </div>
+          </article>
+
+          <article class="product-card product-card--wide" data-moves="flip turn">
+            <div class="product-card__image product-card__image--timer">
+              <img src="./assets/turn-timer.png" alt="A yellow physical focus timer held in front of a laptop">
+              <span class="product-card__badge">flip + turn</span>
+            </div>
+            <div class="product-card__info">
+              <div>
+                <h3>The Turn Timer</h3>
+                <p>Choose a side. Put down your phone. Begin.</p>
+              </div>
+              <span class="status">next drop</span>
+            </div>
+          </article>
+        </div>
+        <p class="source-note">Temporary sourcing images for the prototype. Original product photography will replace them before launch.</p>
+      </section>
+
+      <section class="manifesto" id="why">
+        <div class="manifesto__sticky">
+          <p class="eyebrow">Why this exists</p>
+          <p class="manifesto__lead">Your mind isn’t broken.</p>
+        </div>
+        <div class="manifesto__copy">
+          <p>It’s overstimulated.</p>
+          <p>Every empty moment becomes an excuse to check your phone.</p>
+          <p>Waiting. Thinking. Reading. Working.</p>
+          <p>Scroll. Tap. Refresh.</p>
+          <p>Your hands have forgotten how to be still.</p>
+          <p>Maybe they don’t need to be.</p>
+          <p class="manifesto__accent">Give them something real.</p>
+        </div>
+      </section>
+
+      <section class="newsletter section">
+        <div>
+          <p class="eyebrow">A very small first drop</p>
+          <h2>We’re buying a few.<br>You can hear first.</h2>
+        </div>
+        <form class="signup" id="signup-form">
+          <label for="email">Email address</label>
+          <div class="signup__row">
+            <input id="email" name="email" type="email" inputmode="email" autocomplete="email" placeholder="you@somewhere.com" required>
+            <button type="submit">tell me <span aria-hidden="true">→</span></button>
+          </div>
+          <p class="signup__message" id="signup-message" aria-live="polite">No noise. Just the drop.</p>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <a class="wordmark wordmark--footer" href="#top">something<span>.</span></a>
+      <p>Less scrolling. More squishing.</p>
+      <p class="footer-note">A tiny shop taking shape in California.</p>
+    </footer>
+  </body>
+</html>
